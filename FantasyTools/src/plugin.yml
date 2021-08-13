@@ -1,0 +1,41 @@
+name: FantasyTools
+version: 1.0
+author: Zombie__Hunter
+main: me.Zombie__Hunter.fantasytools.FantasyTools
+description: RPG style class based abilities attached to tools
+api-version: 1.17
+
+commands:
+  createclasstool:
+    usage: /<command> <classtool>
+    description: user spawns a class tool
+  setskillpoints:
+    usage: /<command> <amt>
+    description: sets a player's skillpoint amount
+  leveluptrait:
+    usage: /<command> <trait> <amt>
+    description: levels up a player's classtool trait
+  register:
+    usage: /<command> <class>
+    description: registers the item the player is currently holding as a class tool
+  unregister:
+    usage: /<command>
+    description: unregisters the item the player is currently holding as a class tool
+  unregisterall:
+    usage: /<command>
+    description: unregisters any class tools the player may have registered
+  skillpoints:
+    usage: /<command>
+    description: gets a player's skillpoint amount
+  traits:
+    usage: /<command> <trait> <info>
+    description: informs the user of a trait's information and basic stats
+  classes:
+    usage: /<command> <class> <info>
+    description: informs the user of a class' information and basic stats
+  blanktool:
+    usage: /<command> <tag> <trait>
+    description: creates or updates a blank tool that can have any combination of traits
+  clearunbreakables:
+    usage: /<command> <player>
+    description: clears any unregistered unbreakable items from a player's inventory
